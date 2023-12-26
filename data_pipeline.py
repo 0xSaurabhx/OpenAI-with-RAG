@@ -5,7 +5,7 @@ import html2text
 from requests_html import HTMLSession
 
 def download_and_save_in_markdown(url: str, dir_path: str) -> None:
-    """Download the HTML content from the web page and save it as a markdown file."""
+    """Download the HTML content from the web page and save it as a markdown file"""
     # Extract a filename from the URL
     if url.endswith("/"):
         url = url[:-1]
