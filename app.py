@@ -12,7 +12,7 @@ from langchain.memory import ConversationBufferMemory
 from streamlit_chat import message
 from langchain.callbacks import get_openai_callback
 
-GPT_API_KEY = os.environ["OPENAI-KEY"]
+GPT_API_KEY = st.secrets.cred.key
 def main():
     st.set_page_config(page_title="Chat With files")
     st.header("ChatPDF")
