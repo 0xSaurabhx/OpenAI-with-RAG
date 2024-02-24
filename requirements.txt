@@ -1,6 +1,10 @@
 streamlit
+PyPDF2
 openai
 requests_html
 html2text
 llama-index
 watchdog
+python-docx
+langchain
+streamlit-chat
