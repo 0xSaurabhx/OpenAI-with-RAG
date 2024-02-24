@@ -9,3 +9,4 @@ python-docx
 langchain
 streamlit-chat
 sentence-transformers
+faiss-cpu
